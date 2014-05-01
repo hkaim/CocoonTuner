@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tx>
+  <cmd id="1">
+    <control>SetVtunerTitle</control>
+    <value>{0}</value>
+  </cmd>
+  <cmd id="1">
+    <control>SetVtunerURL</control>
+    <value>{1}</value>
+  </cmd>
+  <cmd id="1">
+    <control>SetVtunerMimeType</control>
+    <value>{2}</value>
+  </cmd>
+</tx>

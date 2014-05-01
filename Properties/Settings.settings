@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CocoonTuner.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Ip" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.178.35</Value>
+    </Setting>
+    <Setting Name="Title" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Schwarze Welle</Value>
+    </Setting>
+    <Setting Name="Url" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://85.25.43.132:7500</Value>
+    </Setting>
+    <Setting Name="Type" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="UserAgent" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Cocoon 1.0.5 rv:4382 (iPhone; iPhone OS 7.0.4; de_DE)</Value>
+    </Setting>
+    <Setting Name="CocoonUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://{0}:4001/goform/formAppCommand.xml</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

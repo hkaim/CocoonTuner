@@ -14,7 +14,7 @@ namespace CocoonTuner
     class Tuner : INotifyPropertyChanged 
     {
         public Tuner()
-        {
+        {        
         }
 
 
@@ -84,10 +84,15 @@ namespace CocoonTuner
             MessageBox.Show("Success :)", "Result");
         }
 
+        private static string XmlEncode(string data)
+        {
+            return System.Security.SecurityElement.Escape(data);
+        }
+
         private void Tune()
         {
             string data = GetRessource("CocoonTuner.SetVTunerUrl.xml");
-            data = string.Format(data, this.Title, this.Url, "mtMp3");
+            data = string.Format(data, XmlEncode(this.Title), XmlEncode(this.Url), "mtMp3");
             SendControlMessage(data);
         }
 
